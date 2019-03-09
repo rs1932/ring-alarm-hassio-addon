@@ -1,0 +1,28 @@
+{
+  "name": "ring alarm hassio integration",
+  "version": "0.48",
+  "slug": "ring_alarm",
+  "description": "Ring Alarm Integration! uses https://github.com/tsightler/ring-alarm-mqtt",
+  "startup": "before",
+  "boot": "auto",
+  "options": {
+    "host": "localhost",
+    "port": 1883,
+    "topic": "ring/",
+    "hass_topic": "hass/status",
+    "mqtt_user": "",
+    "mqtt_pass": "",
+    "ring_user": "ring_email",
+    "ring_pass": "ring_password"
+  },
+  "schema": {
+   "host": "str",
+    "port": "port",
+    "topic": "str",
+    "hass_topic": "str",
+    "mqtt_user": "str",
+    "mqtt_pass": "str",
+    "ring_user": "str",
+    "ring_pass": "str"
+  }
+}
