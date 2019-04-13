@@ -5,6 +5,13 @@
   "description": "Ring Alarm Integration! uses https://github.com/tsightler/ring-alarm-mqtt",
   "startup": "before",
   "boot": "auto",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7",
+    "i386"
+  ],
   "options": {
     "host": "localhost",
     "port": 1883,
