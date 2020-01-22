@@ -20,8 +20,8 @@
     "mqtt_user": "",
     "mqtt_pass": "",
     "ring_user": "ring_email",
-    "ring_pass": "ring_password"
-    "ring_token": "ring_token",
+    "ring_pass": "ring_password",
+    "ring_token": "ring_token"
   },
   "schema": {
    "host": "str",
