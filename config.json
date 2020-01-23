@@ -21,7 +21,8 @@
     "mqtt_pass": "",
     "ring_user": "ring_email",
     "ring_pass": "ring_password",
-    "ring_token": "ring_token"
+    "ring_token": "ring_token",
+    "location_ids": [""]
   },
   "schema": {
    "host": "str",
@@ -32,6 +33,7 @@
     "mqtt_pass": "str",
     "ring_user": "str",
     "ring_pass": "str",
-    "ring_token": "str"
+    "ring_token": "str",
+    "location_ids": ["str"]  
   }
 }
